@@ -1,0 +1,65 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+.navbar-toggler {
+	z-index: 1;
+}
+
+@media (max-width: 576px) {
+	nav>.container {
+		width: 100%;
+	}
+}
+
+.container img {
+	width: 100%;
+}
+
+.img-center {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.VolunteerBGColor{
+	background:orange;
+}
+.VolunteerBGColor .VolunteerFont{
+	font-size:30px;
+}
+.VolunteerBGColor .Fontright{
+	float: right;
+}
+#someid tbody tr td:nth-child(1){
+    width:1px;
+    background-color:pink;
+}
+#someid tbody tr td:nth-child(2){
+    width:15%;
+}
+#someid tbody tr td:nth-child(3){
+    width:15%;
+}
+#someid tbody tr td:nth-child(4){
+    width:15%;
+}
+#someid tbody tr td:nth-child(5){
+    width:35%;
+}
+#someid tbody tr td:nth-child(6){
+    width:20%;
+}   
