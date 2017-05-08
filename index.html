@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./webpage.css">
+</head>
+
+
+<body>
+
+    <div class="container-fluid">
+        <h1>物資捐贈</h1>
+        <p>Content.........</p>
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <span class="label label-default">全部</span>
+                <span class="label label-primary">文具</span>
+                <span class="label label-success">3C產品</span>
+                <span class="label label-info">書籍</span>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="col-sm-10 col-md-10">
+                <table class="table table-filter text-center" id="someid">
+                    <thead>
+                        <td></td>
+                        <td>所需物資</td>
+                        <td>規格</td>
+                        <td>用途</td>
+                        <td>數量</td>
+                        <td>募資進度</td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td>
+                                A4列印紙
+                            </td>
+                            <td>
+                                白色
+                            </td>
+                            <td>
+                                影印
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-4 col-sm-6 col-sm-offset-4">
+                                        <div class="input-group text-center">
+                                            <button type="button" class="btn btn-default">-</button>
+                                            <input type="text" disabled="disable" />包
+                                            <button type="button" class="btn btn-default">+</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                                    style="width:40%">
+                                    40% Complete (success)
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
