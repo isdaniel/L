@@ -38,6 +38,11 @@ body {
 .VolunteerBGColor{
 	background:orange;
 }
+.VolunteerBGColor .Peopleimg{
+	width: 21px;
+    height: 33px;
+    float: right;
+}
 .VolunteerBGColor .VolunteerFont{
 	font-size:30px;
 }
@@ -68,4 +73,11 @@ input{
     padding: 20px;
     height: 180px;
     margin-top: 20px;
+}
+
+.Normal_FontSize{
+    font-size:18px;
+}
+.Content{ 
+    margin: 20px 0px;
 }
