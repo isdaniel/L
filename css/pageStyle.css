@@ -74,10 +74,15 @@ input{
     height: 180px;
     margin-top: 20px;
 }
-
+.Normal_Title{
+    font-size:22px;
+}
 .Normal_FontSize{
     font-size:18px;
 }
 .Content{ 
     margin: 20px 0px;
+}
+.card-bold{
+	font-weight: bold;
 }
